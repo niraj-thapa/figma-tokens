@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Fri, 05 Aug 2022 10:49:10 GMT
+// Generated on Fri, 05 Aug 2022 11:56:18 GMT
 
 $lf-text-decoration-none: none;
 $lf-text-case-none: none;
@@ -61,7 +61,7 @@ $lf-line-heights-4: 32;
 $lf-line-heights-3: 40;
 $lf-line-heights-2: 56;
 $lf-line-heights-1: 72;
-$lf-line-heights-0: 88;
+$lf-line-heights-0: 88px;
 $lf-font-families-inter: Inter;
 $lf-states-focused-primary: [object Object],[object Object];
 $lf-states-focused-neutral: [object Object],[object Object];
@@ -292,6 +292,16 @@ $lf-color-primary-200: #c8cef1;
 $lf-color-primary-100: #d9ddf6;
 $lf-color-primary-50: #e9ecfa;
 $lf-color-primary-25: #f9f9fe;
+$lf-color-button-border-subtle: #ffffff00;
+$lf-color-button-border-secondary-hover: #a7adb9;
+$lf-color-button-border-primary-hover: #39479b;
+$lf-color-button-border-secondary: #c5c9d0;
+$lf-color-button-border-primary: #5366d4;
+$lf-color-button-background-subtle: #ffffff00;
+$lf-color-button-background-secondary-hover: #f5f7fa;
+$lf-color-button-background-primary-hover: #39479b;
+$lf-color-button-background-secondary: #ffffff;
+$lf-color-button-background-primary: #5366d4;
 $lf-color-border-weak: #ffffff;
 $lf-color-border-active: #6d778a;
 $lf-color-border-hover: #a7adb9;
@@ -309,21 +319,11 @@ $lf-color-text-weak-hover: #212429;
 $lf-color-text-weak: #6d778a;
 $lf-color-text-foreground: #ffffff;
 $lf-color-text-default: #212429;
+$lf-color-background-active: #f0f1f3;
+$lf-color-background-hover: #f5f7fa;
+$lf-color-background-strong: #f0f1f3;
+$lf-color-background-medium: #f5f7fa;
+$lf-color-background-weak: #ffffff;
 $lf-color-base-transparent: #ffffff00;
 $lf-color-base-black: #000000;
 $lf-color-base-white: #ffffff;
-$lf-color-button-border-subtle: $lf-color-base-transparent;
-$lf-color-button-border-secondary-hover: $lf-color-neutral-400;
-$lf-color-button-border-primary-hover: $lf-color-primary-700;
-$lf-color-button-border-secondary: $lf-color-neutral-300;
-$lf-color-button-border-primary: $lf-color-primary-500;
-$lf-color-button-background-subtle: $lf-color-base-transparent;
-$lf-color-button-background-secondary-hover: $lf-color-neutral-25;
-$lf-color-button-background-primary-hover: $lf-color-primary-700;
-$lf-color-button-background-secondary: $lf-color-base-white;
-$lf-color-button-background-primary: $lf-color-primary-500;
-$lf-color-background-active: $lf-color-neutral-50;
-$lf-color-background-hover: $lf-color-neutral-25;
-$lf-color-background-strong: $lf-color-neutral-50;
-$lf-color-background-medium: $lf-color-neutral-25;
-$lf-color-background-weak: $lf-color-base-white;

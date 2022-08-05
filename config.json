@@ -1,8 +1,15 @@
 {
-  "source": ["tokens/**/*.json"],
+  "source": ["tokens/output.json"],
   "platforms": {
     "scss": {
       "transformGroup": "scss",
+      "transforms": [
+        "attribute/cti",
+        "name/cti/kebab",
+        "color/hex",
+        "size/rem"
+      ],
+      "prefix": "lf",
       "buildPath": "build/scss/",
       "files": [
         {
@@ -16,6 +23,13 @@
     },
     "css": {
       "transformGroup": "css",
+      "transforms": [
+        "attribute/cti",
+        "name/cti/kebab",
+        "color/hex",
+        "size/rem"
+      ],
+      "prefix": "lf",
       "buildPath": "build/css/",
       "files": [
         {
