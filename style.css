@@ -1,0 +1,8 @@
+@import url(build/css/variables.css);
+
+button {
+  background-color: var(--lf-color-button-background-primary);
+  padding: 0 var(--lf-space-s);
+  color: var(--lf-color-text-foreground);
+  font-weight: var(--lf-font-weight-semi-bold);
+}
