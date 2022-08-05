@@ -1,17 +1,9 @@
 /**
  * Do not edit directly
- * Generated on Fri, 05 Aug 2022 09:14:01 GMT
+ * Generated on Fri, 05 Aug 2022 09:25:24 GMT
  */
 
 :root {
-  --lf-semi-bold: 600;
-  --lf-medium: 500;
-  --lf-normal: 400;
-  --lf-font-weight-normal: 400;
-  --lf-font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-  --lf-border-radius-pill: 999;
-  --lf-border-radius-circle: 1000;
-  --lf-space-base: 16;
   --lf-text-decoration-none: none;
   --lf-text-case-none: none;
   --lf-button-s: [object Object];
@@ -57,6 +49,9 @@
   --lf-font-size-2: 16;
   --lf-font-size-1: 14;
   --lf-font-size-0: 12;
+  --lf-font-weights-inter-2: Medium;
+  --lf-font-weights-inter-1: Regular;
+  --lf-font-weights-inter-0: Semi Bold;
   --lf-line-heights-11: 36;
   --lf-line-heights-10: 48;
   --lf-line-heights-9: 60;
@@ -69,6 +64,7 @@
   --lf-line-heights-2: 56;
   --lf-line-heights-1: 72;
   --lf-line-heights-0: 88;
+  --lf-font-families-inter: Inter;
   --lf-states-focused-primary: [object Object],[object Object];
   --lf-states-focused-neutral: [object Object],[object Object];
   --lf-shadow-3-xl: [object Object];
@@ -328,20 +324,9 @@
   --lf-color-background-active: #f0f1f3;
   --lf-color-background-hover: #f5f7fa;
   --lf-color-background-strong: #f0f1f3;
+  --lf-color-background-medium: #f5f7fa;
+  --lf-color-background-weak: #ffffff;
   --lf-color-base-transparent: #ffffff00;
   --lf-color-base-black: #000000;
-  --lf-color-base-white: #fff;
-  --lf-space-5xl: var(--lf-space-base)*5;
-  --lf-space-4xl: var(--lf-space-base)*4;
-  --lf-space-3xl: var(--lf-space-base)*3;
-  --lf-space-2xl: var(--lf-space-base)*2.5;
-  --lf-space-xl: var(--lf-space-base)*2;
-  --lf-space-l: var(--lf-space-base)*1.5;
-  --lf-space-m: var(--lf-space-base)*1;
-  --lf-space-s: var(--lf-space-base)*.75;
-  --lf-space-xs: var(--lf-space-base)*.5;
-  --lf-space-2xs: var(--lf-space-base)*.25;
-  --lf-space-3xs: var(--lf-space-base)*.125;
-  --lf-color-background-medium: var(--lf-color-neutral-25);
-  --lf-color-background-weak: var(--lf-color-base-white);
+  --lf-color-base-white: #ffffff;
 }
